@@ -7,7 +7,7 @@ from PIL import Image
 import plotly.graph_objects as go
 
 # --- 1. CONFIGURACIÓN BÁSICA ---
-st.set_page_config(page_title="Ruleta de la Suerte", page_icon="🎡", layout="centered")
+st.set_page_config(page_title="Ruleta Flecha Turismo Estudiantil", page_icon="🎡", layout="centered")
 
 if 'opciones' not in st.session_state:
     st.session_state.opciones = []
@@ -68,7 +68,7 @@ st.markdown(f"""
     
 """, unsafe_allow_html=True)
 
-st.markdown("<p class='titulo'>🎡 Ruleta de tiktoks</p>", unsafe_allow_html=True)
+st.markdown("<p class='titulo'>🎡 Ruleta Flecha Turismo Estudiantil</p>", unsafe_allow_html=True)
 
 # --- 4. FORMULARIO PARA AGREGAR OPCIONES ---
 with st.form("agregar_form", clear_on_submit=True):
